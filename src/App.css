@@ -1,0 +1,148 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: yellowgreen;
+  font-weight: 500;
+  border: 3px solid pink;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  background-color: pink;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #a051ad;
+  border-bottom: 1px rgba(199, 174, 65, 0.5) dashed;
+  padding-bottom: 10px;
+}
+
+h1 {
+  color: #561d60;
+}
+
+#filmsList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+#filmsList a {
+  width: 200px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#filmsList a:hover {
+  background-color: rgba(217, 73, 236, 0.137);
+  border-radius: 20px;
+}
+
+.pres {
+  margin-left: 10px;
+}
+
+#filmsList h3,
+#filmsList p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  margin-top: 0;
+  text-align: center;
+}
+
+#filmsList img {
+  height: 250px;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+#filmsList button,
+form input[type="submit"] {
+  margin: 10px auto;
+  color: yellowgreen;
+  border: 3px solid pink;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  width: fit-content;
+  background-color: bisque;
+}
+
+#filmsList button:hover,
+form input[type="submit"]:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+form label input {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+#film .card {
+  align-items: center;
+  width: 100%;
+  min-height: 250px;
+  color: black;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#film img {
+  width: 250px;
+}
+
+h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h4 p {
+  margin-right: 10px;
+}
